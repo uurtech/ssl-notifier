@@ -41,6 +41,5 @@ for url in "${array[@]}"; do
 
   else
     echo "$url Link not valid"
-
   fi
 done

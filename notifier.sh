@@ -12,7 +12,7 @@ envup() {
 }
 
 envup
-regex='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
+regex='(https?|ftp)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 
 if [ -z "$URL_LIST" ]; then
   echo "No URL supplied"
